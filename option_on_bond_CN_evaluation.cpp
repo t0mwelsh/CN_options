@@ -18,7 +18,7 @@ V(r, t; T1, T) → 0 as r → ∞. While if this is an American call option the 
 V(r, t; T1, T) ≥ max{B(r, t; T) − X, 0}, t ≤ T1; V (r, t; T1, T) = B(r, t; T) − X at r = 0;
 V(r, t; T1, T) → 0 as r → ∞. */
 
-#include "Header.h"
+#include "option_on_bond_CN_header.h"
 
 std::vector<double> bond_Crank_Nicolson(std::vector<double> params, int imax, int jmax,
 	double rmax, bool deriv_BC, bool fix_grid)
