@@ -1,4 +1,4 @@
-#include "Header.h"
+#include "option_on_bond_CN_header.h"
 
 void SOR(const std::vector<double>& a, const std::vector<double>& b, const std::vector<double>& c, const std::vector<double>& d,
 	std::vector<double>& B_new, int iter_max, int jmax, double tol, double omega)
