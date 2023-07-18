@@ -1,6 +1,6 @@
 #pragma once
-#ifndef Header_h
-#define Header_h
+#ifndef option_on_bond_CN_header_h
+#define option_on_bond_CN_header_h
 
 #include <iostream>
 #include <iomanip> 
